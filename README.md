@@ -24,7 +24,9 @@ In order to be exploitable, these files must be compiled under a superuser. We a
   - If you used `su` to login as root, you should be able to run `exit` to return to the previous shell
   - Otherwise, `su <user>`
 
-You're ready to start hacking! Good luck on finding the privledge escalation tricks. Here is some info on the programs:  
+You're ready to start hacking! Good luck on finding the privledge escalation tricks.
+
+### Program Information
 [`read.c`](read.c) - Easy - Try to find a way to view a file you don't have read permissions for, like `/etc/shadow`  
 [`pingSys.c`](pingSys.c) - Not Hard - Try to find a way to run other commands, like spawning a shell  
 [`chkmsgs.c`](chkmsgs.c) - Head Scratcher - You're going to want to find a way to spawn a shell again, think outside the box
