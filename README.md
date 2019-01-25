@@ -31,4 +31,4 @@ You're ready to start hacking! Good luck on finding the privledge escalation tri
 [`pingSys.c`](pingSys.c) - Not Hard - Try to find a way to run other commands, like spawning a shell  
 [`chkmsgs.c`](chkmsgs.c) - Head Scratcher - You're going to want to find a way to spawn a shell again, think outside the box
 
-If you're stumped, I suppose you could check the [solutions]() folder for answers, but I promise it's less fun.
+If you're stumped, I suppose you could check the [solutions](solutions/) folder for answers, but I promise it's less fun.
