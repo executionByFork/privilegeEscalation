@@ -17,4 +17,4 @@ Exploit
 You can fix your PATH variable by restarting your terminal or running `export` and setting `PATH` back to the original string
 
 **Why does this work?**  
-Anytime you type a command, the operating system looks at the `PATH` variable and searches every directory listed in it for a program of the same name as the command. Once it finds one that matches, it runs it immediately. In other words, it runs the first one it finds. What if you were to change that variable so that this program found a *different* `cat` binary...
+Anytime you type a command, the operating system looks at the `PATH` variable and searches every directory listed in it for a program of the same name as the command. Once it finds one that matches, it runs it immediately. In other words, it runs the first one it finds. What you've done is created a *different* `cat` program, and made sure the OS finds your first by prepending the current directory to the `PATH` variable.
